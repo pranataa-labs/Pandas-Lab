@@ -1,4 +1,4 @@
-# 🐼 Pandas Lab: 50 Sesi Praktis
+# 🐼 Pandas Lab
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -9,26 +9,24 @@
   </a>
 </p>
 
-Repositori latihan interaktif untuk menguasai manipulasi dan analisis data menggunakan **Pandas** dari tingkat pemula hingga tingkat lanjut (50 sesi terstruktur).
+Repositori latihan interaktif untuk belajar manipulasi dan analisis data dengan **Pandas** menggunakan Google Colab atau JupyterLab.
 
 ---
 
-## 🗺️ Roadmap Pembelajaran
+## 📌 Topik Pembelajaran
 
-| Fase | Sesi | Fokus Materi |
-| :--- | :--- | :--- |
-| **Fase 1** | Sesi 1 – 7 | **Pengenalan & Struktur Data Dasar**: `pd.Series`, `pd.DataFrame`, inspeksi dataset, `.info()`, `.describe()` |
-| **Fase 2** | Sesi 8 – 15 | **Seleksi & Indeksasi**: `df[]`, `.loc[]`, `.iloc[]`, boolean indexing, filter multi-kondisi, `.isin()` |
-| **Fase 3** | Sesi 16 – 24 | **Pembersihan Data (Cleaning)**: missing values (`.isna`, `.fillna`, `.dropna`), duplikasi, tipe data, `.replace`, `.rename` |
-| **Fase 4** | Sesi 25 – 35 | **Manipulasi & Transformasi**: kolom baru, `.apply()`, `.map()`, `.sort_values()`, `.value_counts()`, `.str`, `.groupby()`, `.pivot_table()` |
-| **Fase 5** | Sesi 36 – 41 | **Penggabungan & Analisis Lanjutan**: `pd.concat()`, `pd.merge()`, `.join()`, datetime parsing & `.dt`, resampling |
-| **Fase 6** | Sesi 42 – 50 | **Visualisasi & Ekspor**: line, bar, histogram, box, scatter plot, import JSON/HTML, ekspor CSV/Excel, optimasi memori |
+- **Struktur Data Dasar**: Import Pandas, Pandas Series, DataFrame, Membaca CSV, Inspeksi Data, Info & Shape, Statistik Deskriptif
+- **Seleksi & Indeksasi**: Memilih Kolom, Slicing Baris, Seleksi `.loc` & `.iloc`, Boolean Indexing, Filter Multi-Kondisi, Filter `.isin()`, Manipulasi Indeks
+- **Pembersihan Data**: Deteksi Missing Values, Menghapus Missing Values, Mengisi Missing Values, Deteksi & Hapus Duplikasi, Ubah Tipe Data, Ganti Nilai, Hapus Kolom/Baris, Ganti Nama Kolom
+- **Manipulasi & Transformasi**: Kolom Baru, Fungsi `.apply()`, Mapping `.map()`, Mengurutkan Data, Nilai Unik, Frekuensi Nilai, Manipulasi Teks `.str`, GroupBy, Agregasi Data, Cross Tabulation, Pivot Table
+- **Penggabungan & Analisis**: `pd.concat()`, `pd.merge()`, `.join()`, Konversi Datetime, Ekstraksi Waktu, Resampling Time Series
+- **Visualisasi & Ekspor**: Line Plot, Bar Plot, Histogram, Box Plot, Scatter Plot, Membaca JSON & HTML, Ekspor CSV & Excel, Kustomisasi Tampilan, Optimasi Memori
 
 ---
 
 ## 🚀 Cara Menjalankan
 
-### Opsi A: Google Colab (Tanpa Setup Lokal)
+### Opsi A: Google Colab
 Klik badge **Open in Colab** di atas atau buka file `pandas_lab_50_sesi.ipynb` langsung di Google Colab.
 
 ### Opsi B: Lokal / JupyterLab
@@ -40,24 +38,12 @@ cd pandas-lab
 # Install dependencies
 pip install -r requirements.txt
 
-# Jalankan JupyterLab atau Notebook
+# Jalankan JupyterLab
 jupyter lab
 ```
 
 ---
 
-## 📂 Struktur File
-
-```text
-pandas-lab/
-├── pandas_lab_50_sesi.ipynb    # Master notebook 50 sesi pembelajaran
-├── requirements.txt            # Daftar dependensi library
-├── .gitignore
-└── README.md
-```
-
----
-
 <p align="center">
-  Crafted with coffee & curiosity by <a href="https://github.com/pranataa-labs"><b>pranataa-labs</b></a>.
+  Crafted with curiosity by <a href="https://github.com/pranataa-labs"><b>pranataa-labs</b></a>.
 </p>
